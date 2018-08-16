@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109FEDEC0B38A426144A76F8 /* Pods_Moovup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C847E1217D73D02708A99D /* Pods_Moovup.framework */; };
+		1D0FC8B82124C8E90078E956 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC8B72124C8E90078E956 /* UIView+Extensions.swift */; };
 		1D147FEC2122042600CCEC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D147FEB2122042600CCEC43 /* AppDelegate.swift */; };
 		1D147FEE2122042600CCEC43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D147FED2122042600CCEC43 /* ViewController.swift */; };
-		1D147FF12122042600CCEC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D147FEF2122042600CCEC43 /* Main.storyboard */; };
 		1D147FF42122042600CCEC43 /* Moovup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D147FF22122042600CCEC43 /* Moovup.xcdatamodeld */; };
 		1D147FF62122042600CCEC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D147FF52122042600CCEC43 /* Assets.xcassets */; };
 		1D147FF92122042600CCEC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D147FF72122042600CCEC43 /* LaunchScreen.storyboard */; };
+		1D148004212208A800CCEC43 /* MUPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D148003212208A800CCEC43 /* MUPerson.swift */; };
+		1D14800821220F9600CCEC43 /* MUAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D14800621220F9500CCEC43 /* MUAPIManager.swift */; };
+		1D14800A21220FA300CCEC43 /* MUDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D14800921220FA300CCEC43 /* MUDataStore.swift */; };
+		1D54066B212433A100E98C10 /* MUDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D54066A212433A100E98C10 /* MUDBManager.swift */; };
+		1D54066D212474C700E98C10 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D54066C212474C600E98C10 /* libsqlite3.0.tbd */; };
+		1D5406702124A10E00E98C10 /* MUReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D54066F2124A10E00E98C10 /* MUReachability.swift */; };
+		1DCEA9082122F9B500F05E10 /* MUPersonDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCEA9072122F9B500F05E10 /* MUPersonDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D0FC8B72124C8E90078E956 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		1D147FE82122042600CCEC43 /* Moovup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moovup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D147FEB2122042600CCEC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D147FED2122042600CCEC43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1D147FF02122042600CCEC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D147FF32122042600CCEC43 /* Moovup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moovup.xcdatamodel; sourceTree = "<group>"; };
 		1D147FF52122042600CCEC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D147FF82122042600CCEC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D147FFA2122042600CCEC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D148003212208A800CCEC43 /* MUPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUPerson.swift; sourceTree = "<group>"; };
+		1D14800621220F9500CCEC43 /* MUAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUAPIManager.swift; sourceTree = "<group>"; };
+		1D14800921220FA300CCEC43 /* MUDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUDataStore.swift; sourceTree = "<group>"; };
+		1D54066A212433A100E98C10 /* MUDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUDBManager.swift; sourceTree = "<group>"; };
+		1D54066C212474C600E98C10 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1D54066F2124A10E00E98C10 /* MUReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUReachability.swift; sourceTree = "<group>"; };
+		1DCEA9072122F9B500F05E10 /* MUPersonDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUPersonDetailsController.swift; sourceTree = "<group>"; };
+		361512778C6238A7DB3A93BB /* Pods-Moovup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moovup/Pods-Moovup.release.xcconfig"; sourceTree = "<group>"; };
+		44AF113C27BC0882D0A5E957 /* Pods-Moovup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moovup/Pods-Moovup.debug.xcconfig"; sourceTree = "<group>"; };
+		62C847E1217D73D02708A99D /* Pods_Moovup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D54066D212474C700E98C10 /* libsqlite3.0.tbd in Frameworks */,
+				109FEDEC0B38A426144A76F8 /* Pods_Moovup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		197428E17AD37A3319506728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D54066C212474C600E98C10 /* libsqlite3.0.tbd */,
+				62C847E1217D73D02708A99D /* Pods_Moovup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D0FC8B62124C8E10078E956 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FC8B72124C8E90078E956 /* UIView+Extensions.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		1D147FDF2122042600CCEC43 = {
 			isa = PBXGroup;
 			children = (
 				1D147FEA2122042600CCEC43 /* Moovup */,
 				1D147FE92122042600CCEC43 /* Products */,
+				E6641A1BE55B919AB06462F5 /* Pods */,
+				197428E17AD37A3319506728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +97,60 @@
 			children = (
 				1D147FEB2122042600CCEC43 /* AppDelegate.swift */,
 				1D147FED2122042600CCEC43 /* ViewController.swift */,
-				1D147FEF2122042600CCEC43 /* Main.storyboard */,
+				1DCEA9072122F9B500F05E10 /* MUPersonDetailsController.swift */,
+				1D54066E2124A10200E98C10 /* Reachability */,
+				1D14800521220F9500CCEC43 /* APIManager */,
+				1D1480022122089C00CCEC43 /* Model */,
+				1D14800721220F9600CCEC43 /* DataStore */,
+				1D0FC8B62124C8E10078E956 /* Libraries */,
 				1D147FF52122042600CCEC43 /* Assets.xcassets */,
-				1D147FF72122042600CCEC43 /* LaunchScreen.storyboard */,
 				1D147FFA2122042600CCEC43 /* Info.plist */,
 				1D147FF22122042600CCEC43 /* Moovup.xcdatamodeld */,
+				1D147FF72122042600CCEC43 /* LaunchScreen.storyboard */,
 			);
 			path = Moovup;
+			sourceTree = "<group>";
+		};
+		1D1480022122089C00CCEC43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D148003212208A800CCEC43 /* MUPerson.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D14800521220F9500CCEC43 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				1D14800621220F9500CCEC43 /* MUAPIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		1D14800721220F9600CCEC43 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				1D14800921220FA300CCEC43 /* MUDataStore.swift */,
+				1D54066A212433A100E98C10 /* MUDBManager.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		1D54066E2124A10200E98C10 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1D54066F2124A10E00E98C10 /* MUReachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		E6641A1BE55B919AB06462F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44AF113C27BC0882D0A5E957 /* Pods-Moovup.debug.xcconfig */,
+				361512778C6238A7DB3A93BB /* Pods-Moovup.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D147FFD2122042600CCEC43 /* Build configuration list for PBXNativeTarget "Moovup" */;
 			buildPhases = (
+				CAC375339F7E6BB954C2A874 /* [CP] Check Pods Manifest.lock */,
 				1D147FE42122042600CCEC43 /* Sources */,
 				1D147FE52122042600CCEC43 /* Frameworks */,
 				1D147FE62122042600CCEC43 /* Resources */,
+				0BD4E6F9A6188358550DE8BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,34 +216,77 @@
 			files = (
 				1D147FF92122042600CCEC43 /* LaunchScreen.storyboard in Resources */,
 				1D147FF62122042600CCEC43 /* Assets.xcassets in Resources */,
-				1D147FF12122042600CCEC43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BD4E6F9A6188358550DE8BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Moovup/Pods-Moovup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AMShimmer/AMShimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TableFlip/TableFlip.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMShimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TableFlip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moovup/Pods-Moovup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC375339F7E6BB954C2A874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moovup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D147FE42122042600CCEC43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5406702124A10E00E98C10 /* MUReachability.swift in Sources */,
 				1D147FF42122042600CCEC43 /* Moovup.xcdatamodeld in Sources */,
+				1D0FC8B82124C8E90078E956 /* UIView+Extensions.swift in Sources */,
+				1D14800A21220FA300CCEC43 /* MUDataStore.swift in Sources */,
+				1DCEA9082122F9B500F05E10 /* MUPersonDetailsController.swift in Sources */,
 				1D147FEE2122042600CCEC43 /* ViewController.swift in Sources */,
+				1D148004212208A800CCEC43 /* MUPerson.swift in Sources */,
 				1D147FEC2122042600CCEC43 /* AppDelegate.swift in Sources */,
+				1D14800821220F9600CCEC43 /* MUAPIManager.swift in Sources */,
+				1D54066B212433A100E98C10 /* MUDBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1D147FEF2122042600CCEC43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D147FF02122042600CCEC43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1D147FF72122042600CCEC43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,10 +407,12 @@
 		};
 		1D147FFE2122042600CCEC43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AF113C27BC0882D0A5E957 /* Pods-Moovup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Moovup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viswa.Moovup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,10 +423,12 @@
 		};
 		1D147FFF2122042600CCEC43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361512778C6238A7DB3A93BB /* Pods-Moovup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Moovup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viswa.Moovup;
 				PRODUCT_NAME = "$(TARGET_NAME)";

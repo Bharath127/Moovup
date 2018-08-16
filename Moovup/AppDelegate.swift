@@ -17,9 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let launchVC = ViewController() as UIViewController
+        let navigationController = UINavigationController(rootViewController: launchVC)
+        navigationController.navigationBar.isTranslucent = false
+        navigationController.navigationBar.barTintColor = UIColor(red: 250.0/255.0, green: 94.0/255.0, blue: 102.0/255.0, alpha: 1.0)
+        navigationController.navigationBar.tintColor = UIColor.white
+        navigationController.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
         return true
     }
-
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

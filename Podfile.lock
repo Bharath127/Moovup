@@ -1,0 +1,30 @@
+PODS:
+  - AMShimmer (0.1.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - TableFlip (1.2)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - AMShimmer
+  - SDWebImage (~> 4.0)
+  - TableFlip
+  - Toast-Swift (~> 3.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMShimmer
+    - SDWebImage
+    - TableFlip
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  AMShimmer: 12ffad5d747b598c54ce522e5c11953fd2e61229
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TableFlip: 2ae22773412b295a7cbc54d95b44085bb28092f6
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: 8a25fe986828835e4d9305b2c9ee64f06935081b
+
+COCOAPODS: 1.5.3
