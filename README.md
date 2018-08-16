@@ -25,6 +25,17 @@ Moovup iOS Coding Assignment
 - Assets.xcassets - Assets used in the app.
 
 
+### Pods used
+  - TableFlip - for table animations.
+  - SDWebImage - for lazy image loading.
+  - Toast-Swift - for toasts.
+
+### How to run 
+- Open Terminal, 
+- change directory to Moovup root directory,
+- Type git install, this install required pods,
+- Open Moovup.xcworkspace
+- Build & run
 
 
 
