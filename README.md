@@ -1,3 +1,6 @@
+[![Swift Version](https://img.shields.io/badge/Swift-2.0--4.1-F16D39.svg?style=flat)](https://developer.apple.com/swift)
+
+
 # Moovup
 Moovup iOS Coding Assignment
 
